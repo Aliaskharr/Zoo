@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+
+#indexBody{
+    background: url('img/back4.png');
+    background-repeat:no-repeat;
+    margin: 0;
+}
+
+header{
+    float: left;
+}
+
+header img{
+    max-width: 120px;
+}
+
+header h2{
+    float: right;
+    color: aliceblue;
+    font: bold 2.3em Sofia,serif;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    color: rgba(255, 255, 255, 0.779);
+    font-size: 1.2em;
+    text-decoration:underlines;
+    font: optional;
+    letter-spacing: 0.8px;
+
+    text-underline-offset: 40%;
+    text-decoration-thickness: 2.3px;
+}
+
+nav ul li a:hover{
+    color: rgba(255, 47, 0, 0.777);
+}
+
+main{
+    width: 100%;
+    height: 650px;
+    clear: both;
+}
+
+#container iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.mainHtm{
+    height: 100%;
+}
+
+.mainHtm h1{
+    text-align: center;
+    width: 0;
+    font-size: 80px;
+    font-weight: 600;
+    color: #fff;
+    margin: auto;
+    float: left;
+    margin: 0 0 0 250px;
+}
+
+.mainHtm iframe{
+    float: right;
+    width: 800px;
+    opacity: 90%;
+    margin-right: 100px;
+    border: 10px solid white;
+    box-shadow: #fff 0px 2px 10px 0px, #fff 0px 2px 16px 0px;
+}
+
+.galleryHtm h1{
+    text-align: center;
+    margin:auto;
+    color: #fff;
+    font-size: 40px;
+}
+
+.galleryHtm img{
+    margin: 20px;
+    width: 450px;
+    height: 300px;
+    border: 2px solid #fff;
+}
+
+.galleryHtm h2{
+    text-align: center;
+    color: aliceblue;
+    margin: 30px 0px;
+}
+
+.galleryHtm img:hover{
+    border: 2px solid #666;
+    padding: 3px;
+}
+
+.aboutHtm img{
+    width: 600px;
+    display: block;  /* burda blok etmeseydim sekil ortaya gelmirdi. Niye?*/
+    margin: auto;
+    opacity: 90%;
+    border: 10px solid white;
+    box-shadow: #fff 0px 2px 10px 0px, #fff 0px 2px 16px 0px;
+    border-radius: 10px;
+}
+
+.aboutHtm h1{
+    color: antiquewhite;
+    text-align: center;
+
+}
+
+.aboutHtm p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 200px;
+    margin-top: 30px;
+}
+
+.three{
+    width: 100%;
+    display: inline-block;
+}
+
+.three img{
+    width: 32%;
+    float: left;
+    margin-right: 20px;
+    border: 7px solid white;
+    box-shadow: #fff 0px 2px 8px 0px, #fff 0px 2px 10px 0px;
+}
+
+.contactHtm iframe{
+    border: 0;
+    height: 450px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.contactHtm h1{
+    text-align: center;
+    color: #fff;
+}
+
+.contactHtm h2{
+    text-align: center;
+    color: #e6dede;
+}
+
+.contactHtm p{
+    text-align: center;
+    color: #e6dede;
+}
+
+.end{
+    margin-left: 35%;
+}
+
+.left,.right{
+    float: left;
+}
+
+.right{
+    margin-left: 80px;
+}
+
+.end img{
+    width: 25px;
+    display: block;
+    margin: auto;
+}
